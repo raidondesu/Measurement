@@ -26,7 +26,7 @@ namespace Measurement.__QsEntryPoint__
         public static string DefaultSimulator => "QuantumSimulator";
         public static System.Collections.Generic.IEnumerable<System.CommandLine.Option> Options => new System.CommandLine.Option[] { };
         public static IOperationFactory CreateDefaultCustomSimulator() => throw new InvalidOperationException();
-        public async System.Threading.Tasks.Task<Boolean> Run(IOperationFactory __factory__) => await Measurement.IsQubitOne.Run(__factory__);
+        public async System.Threading.Tasks.Task<QVoid> Run(IOperationFactory __factory__) => await Measurement.InitializeQubit.Run(__factory__);
     }
 }
 // Copyright (c) Microsoft Corporation. All rights reserved.

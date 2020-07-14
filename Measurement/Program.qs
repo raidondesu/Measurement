@@ -4,11 +4,21 @@
     open Microsoft.Quantum.Intrinsic;
     
 
-    @EntryPoint()
+    
     operation IsQubitOne() : Bool {
         using(q = Qubit()){
-         return M(q) == One;   
+         return M(q) == One;  
         }
     }
+    @EntryPoint()
+    operation InitializeQubit() : Unit {
+        using(q = Qubit()){
+            if(M(q) == One) {
+                X(q);
+            }
+        }
+    }
+
+
 }
 
