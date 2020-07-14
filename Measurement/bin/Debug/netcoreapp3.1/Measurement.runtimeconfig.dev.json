@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\Reaper\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Reaper\\.nuget\\packages"
+    ]
+  }
+}
