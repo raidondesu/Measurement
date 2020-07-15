@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iCVy5OkdS5LenoZtgfDQn89ObdZbrCpinHcFLwcvAhTHiRxt4/1feHsw9zNlWQ0o90J/Aa8dMiXY+3hMfFwq3g==",
+  "dgSpecHash": "O6buDPW4S0x5bjm0q8kvudIEjvf8VTP8oSKVQ4AX7f3aOY0/6f5pyNY0NWPcZ203umSKstH0/vccaII23o5Xfg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Reaper\\Desktop\\Quantum\\Measurement\\Measurement\\Measurement.csproj",
+  "projectFilePath": "c:\\Users\\Reaper\\Desktop\\Quantum\\Measurement\\Measurement\\Measurement.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Reaper\\.nuget\\packages\\fparsec\\1.0.3\\fparsec.1.0.3.nupkg.sha512",
     "C:\\Users\\Reaper\\.nuget\\packages\\fsharp.core\\4.7.0\\fsharp.core.4.7.0.nupkg.sha512",

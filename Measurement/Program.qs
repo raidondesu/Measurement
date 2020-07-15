@@ -19,6 +19,19 @@
         }
     }
 
+    operation isQubitPlus() : Bool {
+        using(q = Qubit()){
+            H(q);
+            return M(q) == Zero;
+        }
+    }
+    
+    operation isQubitMinus() : Bool {
+        using(q = Qubit()){
+            return Measure([PauliX], [q]) == One;
+        }
+    }
+
 
 }
 
