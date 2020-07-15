@@ -32,6 +32,13 @@
         }
     }
 
+    operation isQubitA (alpha : Double, q : Qubit) : Bool {
+        Ry(-2.0 * alpha, q);
+        return M(q) == Zero;
+    }
 
+    operation ZeroOrOne (qs : Qubit[]) : Int {
+        return M(qs[0]) == One ? 1 | 0;
+    }
 }
 
