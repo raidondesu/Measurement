@@ -24,9 +24,22 @@ namespace Measurement.__QsEntryPoint__
     {
         public static string Summary => "";
         public static string DefaultSimulator => "QuantumSimulator";
-        public static System.Collections.Generic.IEnumerable<System.CommandLine.Option> Options => new System.CommandLine.Option[] { };
+        public static System.Collections.Generic.IEnumerable<System.CommandLine.Option> Options => new System.CommandLine.Option[]{new System.CommandLine.Option<System.Collections.Generic.IEnumerable<Boolean>>("--" + System.CommandLine.Parsing.StringExtensions.ToKebabCase("b1"), "")
+        {Required = true}, new System.CommandLine.Option<System.Collections.Generic.IEnumerable<Boolean>>("--" + System.CommandLine.Parsing.StringExtensions.ToKebabCase("b2"), "")
+        {Required = true}};
         public static IOperationFactory CreateDefaultCustomSimulator() => throw new InvalidOperationException();
-        public async System.Threading.Tasks.Task<QVoid> Run(IOperationFactory __factory__) => await Measurement.InitializeQubit.Run(__factory__);
+        public async System.Threading.Tasks.Task<Int64> Run(IOperationFactory __factory__) => await Measurement.FirstDifference.Run(__factory__, new QArray<Boolean>(this.B1), new QArray<Boolean>(this.B2));
+        public System.Collections.Generic.IEnumerable<Boolean> B1
+        {
+            get;
+            set;
+        }
+
+        public System.Collections.Generic.IEnumerable<Boolean> B2
+        {
+            get;
+            set;
+        }
     }
 }
 // Copyright (c) Microsoft Corporation. All rights reserved.

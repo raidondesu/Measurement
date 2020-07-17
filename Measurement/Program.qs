@@ -10,7 +10,7 @@
          return M(q) == One;  
         }
     }
-    @EntryPoint()
+    
     operation InitializeQubit() : Unit {
         using(q = Qubit()){
             if(M(q) == One) {
@@ -46,6 +46,15 @@
         let m1 = M(qs[0]) == Zero ? 0 | 1;
         let m2 = M(qs[1]) == Zero ? 0 | 1;
         return m1 * 2 + m2;
+    }
+    @EntryPoint()
+    operation FirstDifference(b1 : Bool[], b2 : Bool []) : Int {
+        for(i in 0 .. Length(b1) - 1) {
+            if (b1[i] != b2[i]) {
+                return i;
+            }
+        }
+        return -1;
     }
 }
 
