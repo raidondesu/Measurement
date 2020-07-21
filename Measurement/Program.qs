@@ -48,7 +48,7 @@
         return m1 * 2 + m2;
     }
     @EntryPoint()
-    operation FirstDifference(b1 : Bool[], b2 : Bool []) : Int {
+    function FirstDifference(b1 : Bool[], b2 : Bool []) : Int {
         for(i in 0 .. Length(b1) - 1) {
             if (b1[i] != b2[i]) {
                 return i;
