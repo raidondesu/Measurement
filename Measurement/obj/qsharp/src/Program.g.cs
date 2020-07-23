@@ -29,6 +29,8 @@ using Microsoft.Quantum.Simulation.Core;
 [assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Measurement\",\"Name\":\"BasisStates\"},\"Attributes\":[],\"SourceFile\":\"C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs\",\"Position\":{\"Item1\":43,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":22}},\"Documentation\":[]}")]
 [assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Function\"},\"QualifiedName\":{\"Namespace\":\"Measurement\",\"Name\":\"FirstDifference\"},\"Attributes\":[{\"TypeId\":{\"Case\":\"Value\",\"Fields\":[{\"Namespace\":\"Microsoft.Quantum.Core\",\"Name\":\"EntryPoint\",\"Range\":{\"Case\":\"Value\",\"Fields\":[{\"Item1\":{\"Line\":1,\"Column\":2},\"Item2\":{\"Line\":1,\"Column\":12}}]}}]},\"Argument\":{\"Item1\":{\"Case\":\"UnitValue\"},\"Item2\":[],\"Item3\":{\"Case\":\"UnitType\"},\"Item4\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Item5\":{\"Case\":\"Value\",\"Fields\":[{\"Item1\":{\"Line\":1,\"Column\":12},\"Item2\":{\"Line\":1,\"Column\":14}}]}},\"Offset\":{\"Item1\":49,\"Item2\":4},\"Comments\":{\"OpeningComments\":[],\"ClosingComments\":[]}}],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs\",\"Position\":{\"Item1\":50,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":10},\"Item2\":{\"Line\":1,\"Column\":25}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"b1\"]},\"Type\":{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Bool\"}]},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":26},\"Item2\":{\"Line\":1,\"Column\":28}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"b2\"]},\"Type\":{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Bool\"}]},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":39},\"Item2\":{\"Line\":1,\"Column\":41}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Bool\"}]},{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Bool\"}]}]]},\"ReturnType\":{\"Case\":\"Int\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
 [assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Measurement\",\"Name\":\"FirstDifference\"},\"Attributes\":[],\"SourceFile\":\"C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs\",\"Position\":{\"Item1\":50,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":10},\"Item2\":{\"Line\":1,\"Column\":25}},\"Documentation\":[]}")]
+[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Function\"},\"QualifiedName\":{\"Namespace\":\"Measurement\",\"Name\":\"SuperDifference\"},\"Attributes\":[],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs\",\"Position\":{\"Item1\":59,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":10},\"Item2\":{\"Line\":1,\"Column\":25}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"b1\"]},\"Type\":{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Bool\"}]}]},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":27},\"Item2\":{\"Line\":1,\"Column\":29}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"b2\"]},\"Type\":{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Bool\"}]}]},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":41},\"Item2\":{\"Line\":1,\"Column\":43}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"Nqubits\"]},\"Type\":{\"Case\":\"Int\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":56},\"Item2\":{\"Line\":1,\"Column\":63}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Bool\"}]}]},{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Bool\"}]}]},{\"Case\":\"Int\"}]]},\"ReturnType\":{\"Case\":\"Int\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Measurement\",\"Name\":\"SuperDifference\"},\"Attributes\":[],\"SourceFile\":\"C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs\",\"Position\":{\"Item1\":59,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":10},\"Item2\":{\"Line\":1,\"Column\":25}},\"Documentation\":[]}")]
 #line hidden
 namespace Measurement
 {
@@ -487,7 +489,7 @@ namespace Measurement
         }
     }
 
-    [SourceLocation("C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs", OperationFunctor.Body, 51, -1)]
+    [SourceLocation("C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs", OperationFunctor.Body, 51, 60)]
     public partial class FirstDifference : Function<(IQArray<Boolean>,IQArray<Boolean>), Int64>, ICallable
     {
         public FirstDifference(IOperationFactory m) : base(m)
@@ -542,6 +544,91 @@ namespace Measurement
         public static System.Threading.Tasks.Task<Int64> Run(IOperationFactory __m__, IQArray<Boolean> b1, IQArray<Boolean> b2)
         {
             return __m__.Run<FirstDifference, (IQArray<Boolean>,IQArray<Boolean>), Int64>((b1, b2));
+        }
+    }
+
+    [SourceLocation("C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs", OperationFunctor.Body, 60, -1)]
+    public partial class SuperDifference : Function<(IQArray<IQArray<Boolean>>,IQArray<IQArray<Boolean>>,Int64), Int64>, ICallable
+    {
+        public SuperDifference(IOperationFactory m) : base(m)
+        {
+        }
+
+        public class In : QTuple<(IQArray<IQArray<Boolean>>,IQArray<IQArray<Boolean>>,Int64)>, IApplyData
+        {
+            public In((IQArray<IQArray<Boolean>>,IQArray<IQArray<Boolean>>,Int64) data) : base(data)
+            {
+            }
+
+            System.Collections.Generic.IEnumerable<Qubit> IApplyData.Qubits => null;
+        }
+
+        String ICallable.Name => "SuperDifference";
+        String ICallable.FullName => "Measurement.SuperDifference";
+        protected ICallable Length
+        {
+            get;
+            set;
+        }
+
+        public override Func<(IQArray<IQArray<Boolean>>,IQArray<IQArray<Boolean>>,Int64), Int64> Body => (__in__) =>
+        {
+            var (b1,b2,Nqubits) = __in__;
+#line 61 "C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs"
+            foreach (var i in new QRange(0L, (Nqubits - 1L)))
+#line hidden
+            {
+#line 62 "C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs"
+                var val1 = 0L;
+#line 63 "C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs"
+                var val2 = 0L;
+#line 64 "C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs"
+                foreach (var j in new QRange(0L, (b1.Length - 1L)))
+#line hidden
+                {
+#line 65 "C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs"
+                    if (b1[j][i])
+                    {
+#line 66 "C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs"
+                        val1 = (val1 + 1L);
+                    }
+                }
+
+#line 69 "C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs"
+                foreach (var k in new QRange(0L, (b2.Length - 1L)))
+#line hidden
+                {
+#line 70 "C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs"
+                    if (b2[k][i])
+                    {
+#line 71 "C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs"
+                        val2 = (val2 + 1L);
+                    }
+                }
+
+#line 74 "C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs"
+                if ((((val1 == b1.Length) && (val2 == 0L)) || ((val1 == 0L) && (val2 == b2.Length))))
+                {
+#line 75 "C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs"
+                    return i;
+                }
+            }
+
+#line 78 "C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs"
+            return -(1L);
+        }
+
+        ;
+        public override void Init()
+        {
+            this.Length = this.Factory.Get<ICallable>(typeof(Microsoft.Quantum.Core.Length<>));
+        }
+
+        public override IApplyData __dataIn((IQArray<IQArray<Boolean>>,IQArray<IQArray<Boolean>>,Int64) data) => new In(data);
+        public override IApplyData __dataOut(Int64 data) => new QTuple<Int64>(data);
+        public static System.Threading.Tasks.Task<Int64> Run(IOperationFactory __m__, IQArray<IQArray<Boolean>> b1, IQArray<IQArray<Boolean>> b2, Int64 Nqubits)
+        {
+            return __m__.Run<SuperDifference, (IQArray<IQArray<Boolean>>,IQArray<IQArray<Boolean>>,Int64), Int64>((b1, b2, Nqubits));
         }
     }
 }

@@ -38,7 +38,7 @@
     }
 
     operation ZeroOrOne (qs : Qubit[]) : Int {
-        return M(qs[0]) == One ? 1 | 0;
+        return M(qs[0]) == One ? 1 | 0;                                                                                                                                                                                                                 1                                                                                                       
     }
 
     operation BasisStates (qs : Qubit[]) : Int {
@@ -51,6 +51,27 @@
     function FirstDifference(b1 : Bool[], b2 : Bool []) : Int {
         for(i in 0 .. Length(b1) - 1) {
             if (b1[i] != b2[i]) {
+                return i;
+            }
+        }
+        return -1;
+    }
+    
+    function SuperDifference (b1: Bool[][], b2 : Bool[][], Nqubits : Int) : Int {
+        for (i in 0 .. Nqubits - 1) {
+            mutable val1 = 0;
+            mutable val2 = 0;
+            for (j in 0 .. Length(b1) - 1) {
+                if (b1[j][i]){
+                    set val1 += 1;
+                }
+            }
+            for (k in 0 .. Length(b2) - 1) {
+                if (b2[k][i]) {
+                    set val2 += 1;
+                }
+            }
+            if ((val1 == Length(b1) and val2 == 0) or (val1 == 0 and val2 == Length(b2)))) {
                 return i;
             }
         }
