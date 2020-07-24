@@ -2,6 +2,8 @@
     open Microsoft.Quantum.Diagnostics;
     open Microsoft.Quantum.Canon;
     open Microsoft.Quantum.Intrinsic;
+    open Microsoft.Quantum.Convert;
+    open Microsoft.Quantum.Measurement;
     
 
     
@@ -77,5 +79,7 @@
         }
         return -1;
     }
+
+
 }
 
