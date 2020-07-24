@@ -79,7 +79,8 @@
         }
         return -1;
     }
-
-
+    operation AllZeroOrW (qs : Qubit[]) : Int {
+        return ResultArrayAsInt(MultiM(qs)) == 0 ? 0 | 1;
+    }
 }
 

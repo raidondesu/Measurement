@@ -13,28 +13,30 @@ using Microsoft.Quantum.Core;
 using Microsoft.Quantum.Intrinsic;
 using Microsoft.Quantum.Simulation.Core;
 
-[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"Measurement\",\"Name\":\"IsQubitOne\"},\"Attributes\":[],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs\",\"Position\":{\"Item1\":7,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":21}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"UnitType\"},\"ReturnType\":{\"Case\":\"Bool\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
-[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Measurement\",\"Name\":\"IsQubitOne\"},\"Attributes\":[],\"SourceFile\":\"C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs\",\"Position\":{\"Item1\":7,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":21}},\"Documentation\":[]}")]
-[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"Measurement\",\"Name\":\"InitializeQubit\"},\"Attributes\":[],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs\",\"Position\":{\"Item1\":13,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":26}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"UnitType\"},\"ReturnType\":{\"Case\":\"UnitType\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
-[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Measurement\",\"Name\":\"InitializeQubit\"},\"Attributes\":[],\"SourceFile\":\"C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs\",\"Position\":{\"Item1\":13,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":26}},\"Documentation\":[]}")]
-[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"Measurement\",\"Name\":\"isQubitPlus\"},\"Attributes\":[],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs\",\"Position\":{\"Item1\":21,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":22}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"UnitType\"},\"ReturnType\":{\"Case\":\"Bool\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
-[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Measurement\",\"Name\":\"isQubitPlus\"},\"Attributes\":[],\"SourceFile\":\"C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs\",\"Position\":{\"Item1\":21,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":22}},\"Documentation\":[]}")]
-[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"Measurement\",\"Name\":\"isQubitMinus\"},\"Attributes\":[],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs\",\"Position\":{\"Item1\":28,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":23}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"UnitType\"},\"ReturnType\":{\"Case\":\"Bool\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
-[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Measurement\",\"Name\":\"isQubitMinus\"},\"Attributes\":[],\"SourceFile\":\"C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs\",\"Position\":{\"Item1\":28,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":23}},\"Documentation\":[]}")]
-[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"Measurement\",\"Name\":\"isQubitA\"},\"Attributes\":[],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs\",\"Position\":{\"Item1\":34,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":19}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"alpha\"]},\"Type\":{\"Case\":\"Double\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":21},\"Item2\":{\"Line\":1,\"Column\":26}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"q\"]},\"Type\":{\"Case\":\"Qubit\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":37},\"Item2\":{\"Line\":1,\"Column\":38}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"Double\"},{\"Case\":\"Qubit\"}]]},\"ReturnType\":{\"Case\":\"Bool\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
-[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Measurement\",\"Name\":\"isQubitA\"},\"Attributes\":[],\"SourceFile\":\"C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs\",\"Position\":{\"Item1\":34,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":19}},\"Documentation\":[]}")]
-[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"Measurement\",\"Name\":\"ZeroOrOne\"},\"Attributes\":[],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs\",\"Position\":{\"Item1\":39,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":20}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"qs\"]},\"Type\":{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":22},\"Item2\":{\"Line\":1,\"Column\":24}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]},\"ReturnType\":{\"Case\":\"Int\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
-[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Measurement\",\"Name\":\"ZeroOrOne\"},\"Attributes\":[],\"SourceFile\":\"C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs\",\"Position\":{\"Item1\":39,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":20}},\"Documentation\":[]}")]
-[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"Measurement\",\"Name\":\"BasisStates\"},\"Attributes\":[],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs\",\"Position\":{\"Item1\":43,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":22}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"qs\"]},\"Type\":{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":24},\"Item2\":{\"Line\":1,\"Column\":26}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]},\"ReturnType\":{\"Case\":\"Int\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
-[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Measurement\",\"Name\":\"BasisStates\"},\"Attributes\":[],\"SourceFile\":\"C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs\",\"Position\":{\"Item1\":43,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":22}},\"Documentation\":[]}")]
-[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Function\"},\"QualifiedName\":{\"Namespace\":\"Measurement\",\"Name\":\"FirstDifference\"},\"Attributes\":[{\"TypeId\":{\"Case\":\"Value\",\"Fields\":[{\"Namespace\":\"Microsoft.Quantum.Core\",\"Name\":\"EntryPoint\",\"Range\":{\"Case\":\"Value\",\"Fields\":[{\"Item1\":{\"Line\":1,\"Column\":2},\"Item2\":{\"Line\":1,\"Column\":12}}]}}]},\"Argument\":{\"Item1\":{\"Case\":\"UnitValue\"},\"Item2\":[],\"Item3\":{\"Case\":\"UnitType\"},\"Item4\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Item5\":{\"Case\":\"Value\",\"Fields\":[{\"Item1\":{\"Line\":1,\"Column\":12},\"Item2\":{\"Line\":1,\"Column\":14}}]}},\"Offset\":{\"Item1\":49,\"Item2\":4},\"Comments\":{\"OpeningComments\":[],\"ClosingComments\":[]}}],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs\",\"Position\":{\"Item1\":50,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":10},\"Item2\":{\"Line\":1,\"Column\":25}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"b1\"]},\"Type\":{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Bool\"}]},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":26},\"Item2\":{\"Line\":1,\"Column\":28}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"b2\"]},\"Type\":{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Bool\"}]},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":39},\"Item2\":{\"Line\":1,\"Column\":41}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Bool\"}]},{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Bool\"}]}]]},\"ReturnType\":{\"Case\":\"Int\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
-[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Measurement\",\"Name\":\"FirstDifference\"},\"Attributes\":[],\"SourceFile\":\"C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs\",\"Position\":{\"Item1\":50,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":10},\"Item2\":{\"Line\":1,\"Column\":25}},\"Documentation\":[]}")]
-[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Function\"},\"QualifiedName\":{\"Namespace\":\"Measurement\",\"Name\":\"SuperDifference\"},\"Attributes\":[],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs\",\"Position\":{\"Item1\":59,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":10},\"Item2\":{\"Line\":1,\"Column\":25}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"b1\"]},\"Type\":{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Bool\"}]}]},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":27},\"Item2\":{\"Line\":1,\"Column\":29}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"b2\"]},\"Type\":{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Bool\"}]}]},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":41},\"Item2\":{\"Line\":1,\"Column\":43}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"Nqubits\"]},\"Type\":{\"Case\":\"Int\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":56},\"Item2\":{\"Line\":1,\"Column\":63}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Bool\"}]}]},{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Bool\"}]}]},{\"Case\":\"Int\"}]]},\"ReturnType\":{\"Case\":\"Int\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
-[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Measurement\",\"Name\":\"SuperDifference\"},\"Attributes\":[],\"SourceFile\":\"C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs\",\"Position\":{\"Item1\":59,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":10},\"Item2\":{\"Line\":1,\"Column\":25}},\"Documentation\":[]}")]
+[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"Measurement\",\"Name\":\"IsQubitOne\"},\"Attributes\":[],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs\",\"Position\":{\"Item1\":9,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":21}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"UnitType\"},\"ReturnType\":{\"Case\":\"Bool\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Measurement\",\"Name\":\"IsQubitOne\"},\"Attributes\":[],\"SourceFile\":\"C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs\",\"Position\":{\"Item1\":9,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":21}},\"Documentation\":[]}")]
+[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"Measurement\",\"Name\":\"InitializeQubit\"},\"Attributes\":[],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs\",\"Position\":{\"Item1\":15,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":26}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"UnitType\"},\"ReturnType\":{\"Case\":\"UnitType\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Measurement\",\"Name\":\"InitializeQubit\"},\"Attributes\":[],\"SourceFile\":\"C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs\",\"Position\":{\"Item1\":15,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":26}},\"Documentation\":[]}")]
+[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"Measurement\",\"Name\":\"isQubitPlus\"},\"Attributes\":[],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs\",\"Position\":{\"Item1\":23,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":22}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"UnitType\"},\"ReturnType\":{\"Case\":\"Bool\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Measurement\",\"Name\":\"isQubitPlus\"},\"Attributes\":[],\"SourceFile\":\"C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs\",\"Position\":{\"Item1\":23,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":22}},\"Documentation\":[]}")]
+[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"Measurement\",\"Name\":\"isQubitMinus\"},\"Attributes\":[],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs\",\"Position\":{\"Item1\":30,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":23}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"UnitType\"},\"ReturnType\":{\"Case\":\"Bool\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Measurement\",\"Name\":\"isQubitMinus\"},\"Attributes\":[],\"SourceFile\":\"C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs\",\"Position\":{\"Item1\":30,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":23}},\"Documentation\":[]}")]
+[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"Measurement\",\"Name\":\"isQubitA\"},\"Attributes\":[],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs\",\"Position\":{\"Item1\":36,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":19}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"alpha\"]},\"Type\":{\"Case\":\"Double\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":21},\"Item2\":{\"Line\":1,\"Column\":26}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"q\"]},\"Type\":{\"Case\":\"Qubit\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":37},\"Item2\":{\"Line\":1,\"Column\":38}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"Double\"},{\"Case\":\"Qubit\"}]]},\"ReturnType\":{\"Case\":\"Bool\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Measurement\",\"Name\":\"isQubitA\"},\"Attributes\":[],\"SourceFile\":\"C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs\",\"Position\":{\"Item1\":36,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":19}},\"Documentation\":[]}")]
+[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"Measurement\",\"Name\":\"ZeroOrOne\"},\"Attributes\":[],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs\",\"Position\":{\"Item1\":41,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":20}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"qs\"]},\"Type\":{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":22},\"Item2\":{\"Line\":1,\"Column\":24}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]},\"ReturnType\":{\"Case\":\"Int\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Measurement\",\"Name\":\"ZeroOrOne\"},\"Attributes\":[],\"SourceFile\":\"C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs\",\"Position\":{\"Item1\":41,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":20}},\"Documentation\":[]}")]
+[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"Measurement\",\"Name\":\"BasisStates\"},\"Attributes\":[],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs\",\"Position\":{\"Item1\":45,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":22}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"qs\"]},\"Type\":{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":24},\"Item2\":{\"Line\":1,\"Column\":26}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]},\"ReturnType\":{\"Case\":\"Int\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Measurement\",\"Name\":\"BasisStates\"},\"Attributes\":[],\"SourceFile\":\"C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs\",\"Position\":{\"Item1\":45,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":22}},\"Documentation\":[]}")]
+[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Function\"},\"QualifiedName\":{\"Namespace\":\"Measurement\",\"Name\":\"FirstDifference\"},\"Attributes\":[{\"TypeId\":{\"Case\":\"Value\",\"Fields\":[{\"Namespace\":\"Microsoft.Quantum.Core\",\"Name\":\"EntryPoint\",\"Range\":{\"Case\":\"Value\",\"Fields\":[{\"Item1\":{\"Line\":1,\"Column\":2},\"Item2\":{\"Line\":1,\"Column\":12}}]}}]},\"Argument\":{\"Item1\":{\"Case\":\"UnitValue\"},\"Item2\":[],\"Item3\":{\"Case\":\"UnitType\"},\"Item4\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Item5\":{\"Case\":\"Value\",\"Fields\":[{\"Item1\":{\"Line\":1,\"Column\":12},\"Item2\":{\"Line\":1,\"Column\":14}}]}},\"Offset\":{\"Item1\":51,\"Item2\":4},\"Comments\":{\"OpeningComments\":[],\"ClosingComments\":[]}}],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs\",\"Position\":{\"Item1\":52,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":10},\"Item2\":{\"Line\":1,\"Column\":25}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"b1\"]},\"Type\":{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Bool\"}]},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":26},\"Item2\":{\"Line\":1,\"Column\":28}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"b2\"]},\"Type\":{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Bool\"}]},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":39},\"Item2\":{\"Line\":1,\"Column\":41}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Bool\"}]},{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Bool\"}]}]]},\"ReturnType\":{\"Case\":\"Int\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Measurement\",\"Name\":\"FirstDifference\"},\"Attributes\":[],\"SourceFile\":\"C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs\",\"Position\":{\"Item1\":52,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":10},\"Item2\":{\"Line\":1,\"Column\":25}},\"Documentation\":[]}")]
+[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Function\"},\"QualifiedName\":{\"Namespace\":\"Measurement\",\"Name\":\"SuperDifference\"},\"Attributes\":[],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs\",\"Position\":{\"Item1\":61,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":10},\"Item2\":{\"Line\":1,\"Column\":25}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"b1\"]},\"Type\":{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Bool\"}]}]},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":27},\"Item2\":{\"Line\":1,\"Column\":29}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"b2\"]},\"Type\":{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Bool\"}]}]},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":41},\"Item2\":{\"Line\":1,\"Column\":43}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"Nqubits\"]},\"Type\":{\"Case\":\"Int\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":56},\"Item2\":{\"Line\":1,\"Column\":63}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Bool\"}]}]},{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Bool\"}]}]},{\"Case\":\"Int\"}]]},\"ReturnType\":{\"Case\":\"Int\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Measurement\",\"Name\":\"SuperDifference\"},\"Attributes\":[],\"SourceFile\":\"C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs\",\"Position\":{\"Item1\":61,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":10},\"Item2\":{\"Line\":1,\"Column\":25}},\"Documentation\":[]}")]
+[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"Measurement\",\"Name\":\"AllZeroOrW\"},\"Attributes\":[],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs\",\"Position\":{\"Item1\":81,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":21}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"qs\"]},\"Type\":{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":23},\"Item2\":{\"Line\":1,\"Column\":25}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]},\"ReturnType\":{\"Case\":\"Int\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Measurement\",\"Name\":\"AllZeroOrW\"},\"Attributes\":[],\"SourceFile\":\"C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs\",\"Position\":{\"Item1\":81,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":21}},\"Documentation\":[]}")]
 #line hidden
 namespace Measurement
 {
-    [SourceLocation("C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs", OperationFunctor.Body, 8, 14)]
+    [SourceLocation("C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs", OperationFunctor.Body, 10, 16)]
     public partial class IsQubitOne : Operation<QVoid, Boolean>, ICallable
     {
         public IsQubitOne(IOperationFactory m) : base(m)
@@ -65,13 +67,13 @@ namespace Measurement
         {
 #line hidden
             {
-#line 9 "C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs"
+#line 11 "C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs"
                 var q = Allocate.Apply();
 #line hidden
                 bool __arg1__ = true;
                 try
                 {
-#line 10 "C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs"
+#line 12 "C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs"
                     return (MicrosoftQuantumIntrinsicM.Apply(q) == Result.One);
                 }
 #line hidden
@@ -108,7 +110,7 @@ namespace Measurement
         }
     }
 
-    [SourceLocation("C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs", OperationFunctor.Body, 14, 22)]
+    [SourceLocation("C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs", OperationFunctor.Body, 16, 24)]
     public partial class InitializeQubit : Operation<QVoid, QVoid>, ICallable
     {
         public InitializeQubit(IOperationFactory m) : base(m)
@@ -145,16 +147,16 @@ namespace Measurement
         {
 #line hidden
             {
-#line 15 "C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs"
+#line 17 "C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs"
                 var q = Allocate.Apply();
 #line hidden
                 bool __arg1__ = true;
                 try
                 {
-#line 16 "C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs"
+#line 18 "C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs"
                     if ((MicrosoftQuantumIntrinsicM.Apply(q) == Result.One))
                     {
-#line 17 "C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs"
+#line 19 "C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs"
                         MicrosoftQuantumIntrinsicX.Apply(q);
                     }
                 }
@@ -196,7 +198,7 @@ namespace Measurement
         }
     }
 
-    [SourceLocation("C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs", OperationFunctor.Body, 22, 29)]
+    [SourceLocation("C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs", OperationFunctor.Body, 24, 31)]
     public partial class isQubitPlus : Operation<QVoid, Boolean>, ICallable
     {
         public isQubitPlus(IOperationFactory m) : base(m)
@@ -233,15 +235,15 @@ namespace Measurement
         {
 #line hidden
             {
-#line 23 "C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs"
+#line 25 "C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs"
                 var q = Allocate.Apply();
 #line hidden
                 bool __arg1__ = true;
                 try
                 {
-#line 24 "C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs"
+#line 26 "C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs"
                     MicrosoftQuantumIntrinsicH.Apply(q);
-#line 25 "C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs"
+#line 27 "C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs"
                     return (MicrosoftQuantumIntrinsicM.Apply(q) == Result.Zero);
                 }
 #line hidden
@@ -279,7 +281,7 @@ namespace Measurement
         }
     }
 
-    [SourceLocation("C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs", OperationFunctor.Body, 29, 35)]
+    [SourceLocation("C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs", OperationFunctor.Body, 31, 37)]
     public partial class isQubitMinus : Operation<QVoid, Boolean>, ICallable
     {
         public isQubitMinus(IOperationFactory m) : base(m)
@@ -310,13 +312,13 @@ namespace Measurement
         {
 #line hidden
             {
-#line 30 "C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs"
+#line 32 "C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs"
                 var q = Allocate.Apply();
 #line hidden
                 bool __arg1__ = true;
                 try
                 {
-#line 31 "C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs"
+#line 33 "C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs"
                     return (MicrosoftQuantumIntrinsicMeasure.Apply((new QArray<Pauli>(Pauli.PauliX), new QArray<Qubit>(q))) == Result.One);
                 }
 #line hidden
@@ -353,7 +355,7 @@ namespace Measurement
         }
     }
 
-    [SourceLocation("C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs", OperationFunctor.Body, 35, 40)]
+    [SourceLocation("C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs", OperationFunctor.Body, 37, 42)]
     public partial class isQubitA : Operation<(Double,Qubit), Boolean>, ICallable
     {
         public isQubitA(IOperationFactory m) : base(m)
@@ -392,9 +394,9 @@ namespace Measurement
         public override Func<(Double,Qubit), Boolean> Body => (__in__) =>
         {
             var (alpha,q) = __in__;
-#line 36 "C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs"
+#line 38 "C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs"
             MicrosoftQuantumIntrinsicRy.Apply(((-(2D) * alpha), q));
-#line 37 "C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs"
+#line 39 "C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs"
             return (MicrosoftQuantumIntrinsicM.Apply(q) == Result.Zero);
         }
 
@@ -413,7 +415,7 @@ namespace Measurement
         }
     }
 
-    [SourceLocation("C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs", OperationFunctor.Body, 40, 44)]
+    [SourceLocation("C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs", OperationFunctor.Body, 42, 46)]
     public partial class ZeroOrOne : Operation<IQArray<Qubit>, Int64>, ICallable
     {
         public ZeroOrOne(IOperationFactory m) : base(m)
@@ -431,7 +433,7 @@ namespace Measurement
         public override Func<IQArray<Qubit>, Int64> Body => (__in__) =>
         {
             var qs = __in__;
-#line 41 "C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs"
+#line 43 "C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs"
             return ((MicrosoftQuantumIntrinsicM.Apply(qs[0L]) == Result.One) ? 1L : 0L);
         }
 
@@ -449,7 +451,7 @@ namespace Measurement
         }
     }
 
-    [SourceLocation("C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs", OperationFunctor.Body, 44, 51)]
+    [SourceLocation("C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs", OperationFunctor.Body, 46, 53)]
     public partial class BasisStates : Operation<IQArray<Qubit>, Int64>, ICallable
     {
         public BasisStates(IOperationFactory m) : base(m)
@@ -467,11 +469,11 @@ namespace Measurement
         public override Func<IQArray<Qubit>, Int64> Body => (__in__) =>
         {
             var qs = __in__;
-#line 46 "C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs"
-            var m1 = ((MicrosoftQuantumIntrinsicM.Apply(qs[0L]) == Result.Zero) ? 0L : 1L);
-#line 47 "C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs"
-            var m2 = ((MicrosoftQuantumIntrinsicM.Apply(qs[1L]) == Result.Zero) ? 0L : 1L);
 #line 48 "C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs"
+            var m1 = ((MicrosoftQuantumIntrinsicM.Apply(qs[0L]) == Result.Zero) ? 0L : 1L);
+#line 49 "C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs"
+            var m2 = ((MicrosoftQuantumIntrinsicM.Apply(qs[1L]) == Result.Zero) ? 0L : 1L);
+#line 50 "C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs"
             return ((m1 * 2L) + m2);
         }
 
@@ -489,7 +491,7 @@ namespace Measurement
         }
     }
 
-    [SourceLocation("C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs", OperationFunctor.Body, 51, 60)]
+    [SourceLocation("C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs", OperationFunctor.Body, 53, 62)]
     public partial class FirstDifference : Function<(IQArray<Boolean>,IQArray<Boolean>), Int64>, ICallable
     {
         public FirstDifference(IOperationFactory m) : base(m)
@@ -517,19 +519,19 @@ namespace Measurement
         public override Func<(IQArray<Boolean>,IQArray<Boolean>), Int64> Body => (__in__) =>
         {
             var (b1,b2) = __in__;
-#line 52 "C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs"
+#line 54 "C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs"
             foreach (var i in new QRange(0L, (b1.Length - 1L)))
 #line hidden
             {
-#line 53 "C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs"
+#line 55 "C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs"
                 if ((b1[i] != b2[i]))
                 {
-#line 54 "C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs"
+#line 56 "C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs"
                     return i;
                 }
             }
 
-#line 57 "C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs"
+#line 59 "C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs"
             return -(1L);
         }
 
@@ -547,7 +549,7 @@ namespace Measurement
         }
     }
 
-    [SourceLocation("C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs", OperationFunctor.Body, 60, -1)]
+    [SourceLocation("C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs", OperationFunctor.Body, 62, 82)]
     public partial class SuperDifference : Function<(IQArray<IQArray<Boolean>>,IQArray<IQArray<Boolean>>,Int64), Int64>, ICallable
     {
         public SuperDifference(IOperationFactory m) : base(m)
@@ -574,47 +576,47 @@ namespace Measurement
         public override Func<(IQArray<IQArray<Boolean>>,IQArray<IQArray<Boolean>>,Int64), Int64> Body => (__in__) =>
         {
             var (b1,b2,Nqubits) = __in__;
-#line 61 "C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs"
+#line 63 "C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs"
             foreach (var i in new QRange(0L, (Nqubits - 1L)))
 #line hidden
             {
-#line 62 "C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs"
-                var val1 = 0L;
-#line 63 "C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs"
-                var val2 = 0L;
 #line 64 "C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs"
+                var val1 = 0L;
+#line 65 "C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs"
+                var val2 = 0L;
+#line 66 "C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs"
                 foreach (var j in new QRange(0L, (b1.Length - 1L)))
 #line hidden
                 {
-#line 65 "C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs"
+#line 67 "C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs"
                     if (b1[j][i])
                     {
-#line 66 "C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs"
+#line 68 "C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs"
                         val1 = (val1 + 1L);
                     }
                 }
 
-#line 69 "C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs"
+#line 71 "C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs"
                 foreach (var k in new QRange(0L, (b2.Length - 1L)))
 #line hidden
                 {
-#line 70 "C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs"
+#line 72 "C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs"
                     if (b2[k][i])
                     {
-#line 71 "C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs"
+#line 73 "C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs"
                         val2 = (val2 + 1L);
                     }
                 }
 
-#line 74 "C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs"
+#line 76 "C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs"
                 if ((((val1 == b1.Length) && (val2 == 0L)) || ((val1 == 0L) && (val2 == b2.Length))))
                 {
-#line 75 "C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs"
+#line 77 "C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs"
                     return i;
                 }
             }
 
-#line 78 "C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs"
+#line 80 "C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs"
             return -(1L);
         }
 
@@ -629,6 +631,49 @@ namespace Measurement
         public static System.Threading.Tasks.Task<Int64> Run(IOperationFactory __m__, IQArray<IQArray<Boolean>> b1, IQArray<IQArray<Boolean>> b2, Int64 Nqubits)
         {
             return __m__.Run<SuperDifference, (IQArray<IQArray<Boolean>>,IQArray<IQArray<Boolean>>,Int64), Int64>((b1, b2, Nqubits));
+        }
+    }
+
+    [SourceLocation("C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs", OperationFunctor.Body, 82, -1)]
+    public partial class AllZeroOrW : Operation<IQArray<Qubit>, Int64>, ICallable
+    {
+        public AllZeroOrW(IOperationFactory m) : base(m)
+        {
+        }
+
+        String ICallable.Name => "AllZeroOrW";
+        String ICallable.FullName => "Measurement.AllZeroOrW";
+        protected ICallable<IQArray<Result>, Int64> MicrosoftQuantumConvertResultArrayAsInt
+        {
+            get;
+            set;
+        }
+
+        protected ICallable<IQArray<Qubit>, IQArray<Result>> MicrosoftQuantumMeasurementMultiM
+        {
+            get;
+            set;
+        }
+
+        public override Func<IQArray<Qubit>, Int64> Body => (__in__) =>
+        {
+            var qs = __in__;
+#line 83 "C:/Users/Reaper/Desktop/Quantum/Measurement/Measurement/Program.qs"
+            return ((MicrosoftQuantumConvertResultArrayAsInt.Apply(MicrosoftQuantumMeasurementMultiM.Apply(qs)) == 0L) ? 0L : 1L);
+        }
+
+        ;
+        public override void Init()
+        {
+            this.MicrosoftQuantumConvertResultArrayAsInt = this.Factory.Get<ICallable<IQArray<Result>, Int64>>(typeof(Microsoft.Quantum.Convert.ResultArrayAsInt));
+            this.MicrosoftQuantumMeasurementMultiM = this.Factory.Get<ICallable<IQArray<Qubit>, IQArray<Result>>>(typeof(Microsoft.Quantum.Measurement.MultiM));
+        }
+
+        public override IApplyData __dataIn(IQArray<Qubit> data) => data;
+        public override IApplyData __dataOut(Int64 data) => new QTuple<Int64>(data);
+        public static System.Threading.Tasks.Task<Int64> Run(IOperationFactory __m__, IQArray<Qubit> qs)
+        {
+            return __m__.Run<AllZeroOrW, IQArray<Qubit>, Int64>(qs);
         }
     }
 }

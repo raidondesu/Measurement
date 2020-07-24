@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Reaper\\Desktop\\Quantum\\Measurement\\Measurement\\Measurement.csproj": {}
+    "C:\\Users\\Reaper\\Desktop\\Quantum\\Measurement\\Measurement\\Measurement.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Reaper\\Desktop\\Quantum\\Measurement\\Measurement\\Measurement.csproj": {
+    "C:\\Users\\Reaper\\Desktop\\Quantum\\Measurement\\Measurement\\Measurement.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Reaper\\Desktop\\Quantum\\Measurement\\Measurement\\Measurement.csproj",
+        "projectUniqueName": "C:\\Users\\Reaper\\Desktop\\Quantum\\Measurement\\Measurement\\Measurement.csproj",
         "projectName": "Measurement",
-        "projectPath": "c:\\Users\\Reaper\\Desktop\\Quantum\\Measurement\\Measurement\\Measurement.csproj",
+        "projectPath": "C:\\Users\\Reaper\\Desktop\\Quantum\\Measurement\\Measurement\\Measurement.csproj",
         "packagesPath": "C:\\Users\\Reaper\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Reaper\\Desktop\\Quantum\\Measurement\\Measurement\\obj\\",
+        "outputPath": "C:\\Users\\Reaper\\Desktop\\Quantum\\Measurement\\Measurement\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Reaper\\AppData\\Roaming\\NuGet\\NuGet.Config"
